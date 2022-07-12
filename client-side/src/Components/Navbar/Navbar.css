@@ -1,0 +1,9 @@
+.navbar-content {
+    padding: 8px 9%;
+}
+
+@media only screen and (max-width: 990px) {
+    .navbar-content {
+        padding: 5px;
+    }
+}
