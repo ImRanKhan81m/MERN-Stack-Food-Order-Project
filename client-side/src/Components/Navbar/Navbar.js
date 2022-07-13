@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRightArrowLeft, faBarsProgress, faBlog, faBurger, faCartShopping, faContactBook, faHeart, faHome, faList, faListCheck, faRightFromBracket, faStar,faUser, faUtensils } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRightArrowLeft, faBarsProgress, faBlog, faBurger, faCartShopping, faContactBook, faHeart, faHome, faList, faListCheck, faRightFromBracket, faStar,faUser, faUserAlt, faUtensils } from '@fortawesome/free-solid-svg-icons'
 import './Navbar.css'
 import { Link } from 'react-router-dom';
 
@@ -9,30 +9,30 @@ const Navbar = ({setDark, dark}) => {
         <div className='shadow navbar-content'>
             <div class="navbar bg-base-100 p-0">
                 <div class="navbar-start">
-                    <div class="dropdown">
+                    <div class="dropdown dropdown-items">
                         <label tabIndex="0" class="btn btn-accent btn-square lg:hidden h-0 w-10 mr-1">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                         </label>
                         <ul tabIndex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 border border-info">
 
-                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faHome} /> Home</Link></li>
-                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faBurger} /> Products</Link></li>
-                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faBarsProgress} /> Featured</Link></li>
-                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faStar} /> Review</Link></li>
-                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faContactBook} /> Contact</Link></li>
-                            <li><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faBlog} /> Blog</Link></li>
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faHome} /> <span className='item'>Home</span></Link></li>
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faBurger} /> <span className='item'>Products</span></Link></li>
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faBarsProgress} /> <span className='item'>Featured</span></Link></li>
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faStar} /> <span className='item'>Review</span></Link></li>
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faContactBook} /> <span className='item'>Contact</span></Link></li>
+                            <li><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faBlog} /> <span className='item'>Blog</span></Link></li>
                         </ul>
                     </div>
                     <Link className="logo text-2xl font-bold text-secondary" to={'/'}><FontAwesomeIcon className='text-primary' icon={faUtensils} /> Food</Link>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0">
-                        <li className='mr-1'><Link to='/'>Home</Link></li>
-                        <li className='mr-1'><Link to='/'>Products</Link></li>
-                        <li className='mr-1'><Link to='/'>Featured</Link></li>
-                        <li className='mr-1'><Link to='/'>Review</Link></li>
-                        <li className='mr-1'><Link to='/'>Contact</Link></li>
-                        <li className='mr-2'><Link to='/'>Blog</Link></li>
+                        <li className='mr-1 hover:text-primary'><Link to='/'>Home</Link></li>
+                        <li className='mr-1 hover:text-primary'><Link to='/'>Products</Link></li>
+                        <li className='mr-1 hover:text-primary'><Link to='/'>Featured</Link></li>
+                        <li className='mr-1 hover:text-primary'><Link to='/'>Review</Link></li>
+                        <li className='mr-1 hover:text-primary'><Link to='/'>Contact</Link></li>
+                        <li className='mr-2 hover:text-primary'><Link to='/'>Blog</Link></li>
                     </ul>
                 </div>
                 <div class="navbar-end">
@@ -51,17 +51,17 @@ const Navbar = ({setDark, dark}) => {
 
 
 
-                    <div class="dropdown dropdown-end ">
+                    <div class="dropdown dropdown-end dropdown-items">
                         <label tabIndex="1">
                             <Link className="navbar-logo bg-accent hover:bg-primary " to={'/'}><FontAwesomeIcon className='icon text-secondary ' icon={faUser} /></Link>
                         </label>
                         <ul tabIndex="1" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 bg-base-100 border border-info">
-                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faListCheck} /> Manage My Account</Link></li>
-                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faList} /> My Orders</Link></li>
-                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faHeart} /> My Wishlist</Link></li>
-                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary ' icon={faStar} /> My Reviews</Link></li>
-                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary ' icon={faArrowRightArrowLeft} /> Returns & Cancellation</Link></li>
-                            <li><Link to='/'><FontAwesomeIcon className='icon text-secondary ' icon={faRightFromBracket} /> Log Out</Link></li>
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faUserAlt} /> <span className='item'>Profile</span></Link></li>
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faList} /> <span className='item'>My Orders</span></Link></li>
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faHeart} /> <span className='item'>My Wishlist</span></Link></li>
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary ' icon={faStar} /> <span className='item'>My Reviews</span></Link></li>
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary ' icon={faArrowRightArrowLeft} /> <span className='item'>Returns & Cancellation</span></Link></li>
+                            <li><Link to='/'><FontAwesomeIcon className='icon text-secondary ' icon={faRightFromBracket} /> <span className='item'>Log Out</span></Link></li>
                         </ul>
                     </div>
                 </div>
