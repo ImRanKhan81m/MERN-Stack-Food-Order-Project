@@ -13,10 +13,10 @@ const Banner = () => {
         <div className='mid-container'>
             <div className='grid lg:grid-cols-2 md:grid-cols-2'>
                 <div className='flex items-center lg:order-1 md:order-1 order-2'>
-                    <div>
+                    <div className='about'>
                         <h6 className='text-success text-2xl'>Welcome Foodies</h6>
-                        <h1 className='font-bold lg:text-5xl md:text-4xl sm:text-5xl text-3xl text-secondary my-5'>Different Spices For The Different Tastes 😋</h1>
-                        <p className='text-xl'>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Omnis Unde Dolores Temporibus Hic Quam Debitis Tenetur Harum Nemo.</p>
+                        <h2 className='font-bold lg:text-4xl md:text-4xl sm:text-4xl text-3xl text-secondary my-5'>Different Spices For The Different Tastes 😋</h2>
+                        <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Omnis Unde Dolores Temporibus Hic Quam Debitis Tenetur Harum Nemo.</p>
                         <button className='btn btn-success text-neutral mt-10'>Order Now</button>
                     </div>
                 </div>
