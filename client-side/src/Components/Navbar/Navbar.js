@@ -1,13 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRightArrowLeft, faBarsProgress, faBlog, faBurger, faCartShopping, faContactBook, faHeart, faHome, faList, faListCheck, faRightFromBracket, faStar,faUser, faUserAlt, faUtensils } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRightArrowLeft, faBarsProgress, faBlog, faBurger, faCartShopping, faContactBook, faHeart, faHome, faList, faListCheck, faRightFromBracket, faStar, faUser, faUserAlt, faUtensils } from '@fortawesome/free-solid-svg-icons'
 import './Navbar.css'
 import { Link } from 'react-router-dom';
 
-const Navbar = ({setDark, dark}) => {
+const Navbar = ({ setDark, dark }) => {
     return (
-        <div className='shadow navbar-content'>
-            <div class="navbar bg-base-100 p-0">
+            <div class="sticky top-0 z-10 shadow navbar-content navbar bg-base-100 p-0">
                 <div class="navbar-start">
                     <div class="dropdown dropdown-items">
                         <label tabIndex="0" class="btn btn-accent btn-square lg:hidden h-0 w-10 mr-1">
@@ -66,7 +65,6 @@ const Navbar = ({setDark, dark}) => {
                     </div>
                 </div>
             </div>
-        </div>
     );
 };
 
