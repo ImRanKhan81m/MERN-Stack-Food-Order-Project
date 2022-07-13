@@ -14,15 +14,15 @@ import food8 from '../../assets/image/food-8.png'
 const Popular = () => {
     return (
         <div className='mid-container'>
-            <div className='about'>
+            <div className='about mt-10'>
                 <h6 className='text-success text-3xl text-center'>Popular Food</h6>
                 <h2 className='lg:text-4xl md:text-4xl sm:text-4xl text-3xl text-secondary my-3 text-center font-medium'>Our Special Dishes</h2>
             </div>
-            <div className='grid grid-cols-5 mt-14 gap-5'>
+            <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 mt-14 gap-6'>
 
                 <div class="card  bg-neutral shadow-xl border">
-                    <div className='text-end mr-4 mt-3'>
-                        <FontAwesomeIcon className='icon text-accent text-3xl' icon={faHeart} />
+                    <div className='text-end mr-4 mt-3 wishlist'>
+                        <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
                     <figure class="px-7 ">
                         <img src={food1} alt="food" class="rounded-xl" />
@@ -40,7 +40,10 @@ const Popular = () => {
                 </div>
 
                 <div class="card  bg-neutral shadow-xl border">
-                    <figure class="px-7 pt-5">
+                <div className='text-end mr-4 mt-3 wishlist'>
+                        <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
+                    </div>
+                    <figure class="px-7 pt-0">
                         <img src={food2} alt="food" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center p-5">
@@ -56,7 +59,10 @@ const Popular = () => {
                 </div>
 
                 <div class="card  bg-neutral shadow-xl border">
-                    <figure class="px-7 pt-5">
+                <div className='text-end mr-4 mt-3 wishlist'>
+                        <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
+                    </div>
+                    <figure class="px-7 pt-0">
                         <img src={food3} alt="food" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center p-5">
@@ -72,7 +78,10 @@ const Popular = () => {
                 </div>
 
                 <div class="card  bg-neutral shadow-xl border">
-                    <figure class="px-7 pt-5">
+                <div className='text-end mr-4 mt-3 wishlist'>
+                        <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
+                    </div>
+                    <figure class="px-7 pt-0">
                         <img src={food4} alt="food" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center p-5">
@@ -88,7 +97,10 @@ const Popular = () => {
                 </div>
 
                 <div class="card  bg-neutral shadow-xl border">
-                    <figure class="px-7 pt-5">
+                <div className='text-end mr-4 mt-3 wishlist'>
+                        <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
+                    </div>
+                    <figure class="px-7 pt-0">
                         <img src={food5} alt="food" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center p-5">
@@ -104,7 +116,10 @@ const Popular = () => {
                 </div>
 
                 <div class="card  bg-neutral shadow-xl border">
-                    <figure class="px-7 pt-5">
+                <div className='text-end mr-4 mt-3 wishlist'>
+                        <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
+                    </div>
+                    <figure class="px-7 pt-0">
                         <img src={food6} alt="food" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center p-5">
@@ -120,7 +135,10 @@ const Popular = () => {
                 </div>
 
                 <div class="card  bg-neutral shadow-xl border">
-                    <figure class="px-7 pt-5">
+                <div className='text-end mr-4 mt-3 wishlist'>
+                        <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
+                    </div>
+                    <figure class="px-7 pt-0">
                         <img src={food7} alt="food" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center p-5">
@@ -136,7 +154,10 @@ const Popular = () => {
                 </div>
 
                 <div class="card  bg-neutral shadow-xl border">
-                    <figure class="px-7 pt-5">
+                <div className='text-end mr-4 mt-3 wishlist'>
+                        <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
+                    </div>
+                    <figure class="px-7 pt-0">
                         <img src={food8} alt="food" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center p-5">
@@ -151,8 +172,11 @@ const Popular = () => {
                     </div>
                 </div>
 
-                <div class="card  bg-neutral shadow-xl border">
-                    <figure class="px-7 pt-5">
+                {/* <div class="card  bg-neutral shadow-xl border">
+                <div className='text-end mr-4 mt-3 wishlist'>
+                        <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
+                    </div>
+                    <figure class="px-7 pt-0">
                         <img src={food1} alt="food" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center p-5">
@@ -168,7 +192,10 @@ const Popular = () => {
                 </div>
 
                 <div class="card  bg-neutral shadow-xl border">
-                    <figure class="px-7 pt-5">
+                <div className='text-end mr-4 mt-3 wishlist'>
+                        <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
+                    </div>
+                    <figure class="px-7 pt-0">
                         <img src={food2} alt="food" class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center p-5">
@@ -181,7 +208,7 @@ const Popular = () => {
                             <button class="btn btn-sm btn-success text-neutral butn mt-2">Add To Cart</button>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             </div>
         </div>
