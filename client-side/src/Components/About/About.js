@@ -7,7 +7,7 @@ import logo3 from '../../assets/icon/serv-4.png'
 
 const About = () => {
     return (
-        <div className='mid-container'>
+        <div className='mid-container' id='about'>
             <div className='grid lg:grid-cols-2 md:grid-cols-2'>
                 <div className='lg:order-1 md:order-1 order-2 lg:mt-0 md:mt-0 mt-10 flex items-center'>
                     <img src={img} alt="" />
@@ -19,7 +19,7 @@ const About = () => {
                         <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Eos Ut Explicabo, Numquam Iusto Est A Ipsum Assumenda Tempore Esse Corporis?</p>
                         <button className='btn btn-success text-neutral my-5 butn'>Read More</button>
 
-                        <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-5'>
+                        <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-3 gap-5'>
                             <div class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
                                 <div>
                                     <img src={logo1} alt="" />
