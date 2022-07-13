@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartShopping, faHeart,faUser,faUtensils } from '@fortawesome/free-solid-svg-icons'
+import { faBarsProgress, faBlog, faBurger, faCartShopping, faContactBook, faHeart, faHome, faList, faListCheck, faStar,faUser, faUtensils } from '@fortawesome/free-solid-svg-icons'
 import './Navbar.css'
 import { Link } from 'react-router-dom';
 
@@ -10,16 +10,17 @@ const Navbar = () => {
             <div class="navbar bg-base-100 p-0">
                 <div class="navbar-start">
                     <div class="dropdown">
-                        <label tabIndex="0" class="btn btn-ghost btn-circle lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                        <label tabIndex="0" class="btn btn-accent btn-square lg:hidden h-0 w-10 mr-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
                         </label>
-                        <ul tabIndex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <li className='mr-1'><Link to='/'>Home</Link></li>
-                            <li className='mr-1'><Link to='/'>Products</Link></li>
-                            <li className='mr-1'><Link to='/'>Featured</Link></li>
-                            <li className='mr-1'><Link to='/'>Review</Link></li>
-                            <li className='mr-1'><Link to='/'>Contact</Link></li>
-                            <li><Link to='/'>Blog</Link></li>
+                        <ul tabIndex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 border border-info">
+
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faHome} /> Home</Link></li>
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faBurger} /> Products</Link></li>
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faBarsProgress} /> Featured</Link></li>
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faStar} /> Review</Link></li>
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faContactBook} /> Contact</Link></li>
+                            <li><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faBlog} /> Blog</Link></li>
                         </ul>
                     </div>
                     <Link className="logo text-2xl font-bold text-secondary" to={'/'}><FontAwesomeIcon className='text-primary' icon={faUtensils} /> Food</Link>
@@ -44,13 +45,25 @@ const Navbar = () => {
                         <svg class="swap-off fill-current w-8 h-8 text-secondary dark-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" /></svg>
 
                     </label>
-                    <Link className="navbar-logo bg-accent hover:bg-primary mr-2" to={'/'}><FontAwesomeIcon className='icon text-secondary' icon={faHeart } /></Link>
+                    <Link className="navbar-logo bg-accent hover:bg-primary mr-2" to={'/'}><FontAwesomeIcon className='icon text-secondary' icon={faHeart} /></Link>
 
                     <Link className="navbar-logo bg-accent hover:bg-primary mr-3 indicator" to={'/'} ><FontAwesomeIcon className='icon text-secondary' icon={faCartShopping} /><span class="indicator-item badge badge-secondary text-accent">5</span></Link>
 
-                    <Link className="navbar-logo bg-accent hover:bg-primary " to={'/'}><FontAwesomeIcon className='icon text-secondary' icon={faUser} /></Link>
 
-                    
+
+                    <div class="dropdown dropdown-end ">
+                        <label tabIndex="1">
+                            <Link className="navbar-logo bg-accent hover:bg-primary " to={'/'}><FontAwesomeIcon className='icon text-secondary ' icon={faUser} /></Link>
+                        </label>
+                        <ul tabIndex="1" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 bg-base-100 border border-info">
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faListCheck} /> Manage My Account</Link></li>
+                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faList} /> My Orders</Link></li>
+                            <li className='mb-1'><Link to='/'>My Wishlist</Link></li>
+                            <li className='mb-1'><Link to='/'>My Reviews</Link></li>
+                            <li className='mb-1'><Link to='/'>Returns & Cancellation</Link></li>
+                            <li><Link to='/'>Log Out</Link></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
