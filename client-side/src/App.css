@@ -18,7 +18,7 @@ h2, p{
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+/* ==================================================== */
 .mid-container{
   padding: 2rem 9%;
 }
@@ -27,6 +27,16 @@ h2, p{
     padding: 1.5rem;
   }
 }
+.butn{
+  transition: .3s;
+  border: none;
+}
+.butn:hover{
+  background-color: #22a558;
+  border: none !important;
+  letter-spacing: 1.5px;
+}
+/* ================================================ */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

@@ -17,7 +17,7 @@ const Banner = () => {
                         <h6 className='text-success text-2xl'>Welcome Foodies</h6>
                         <h2 className='font-bold lg:text-4xl md:text-4xl sm:text-4xl text-3xl text-secondary my-5'>Different Spices For The Different Tastes 😋</h2>
                         <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Omnis Unde Dolores Temporibus Hic Quam Debitis Tenetur Harum Nemo.</p>
-                        <button className='btn btn-success text-neutral mt-10'>Order Now</button>
+                        <button className='btn btn-success text-neutral mt-10 butn'>Order Now</button>
                     </div>
                 </div>
                 <div className='flex items-center justify-items-end order-1'>
