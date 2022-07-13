@@ -41,7 +41,7 @@
 
 .dropdown-items .item{
     transition: .3s;
-}
+} 
 .dropdown-items li:hover .item{
     color: orange;
     letter-spacing: 1.5px;
