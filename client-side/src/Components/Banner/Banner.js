@@ -35,8 +35,16 @@ const Banner = () => {
                             data-aos-duration="1200"
                             data-aos-easing="ease-in-out">
                             Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Omnis Unde Dolores Temporibus Hic Quam Debitis Tenetur Harum Nemo.</p>
-                        <button
-                            className='btn btn-success text-neutral mt-10 butn duration-300'>Order Now</button>
+                        <div
+                            data-aos="fade-right"
+                            data-aos-offset="200"
+                            data-aos-delay="50"
+                            data-aos-duration="1400"
+                            data-aos-easing="ease-in-out">
+                            <button
+                                className='btn btn-success text-neutral mt-10 butn duration-300'>Order Now
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div className='flex items-center justify-items-end order-1'>
