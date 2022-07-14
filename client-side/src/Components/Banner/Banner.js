@@ -14,14 +14,39 @@ const Banner = () => {
             <div className='grid lg:grid-cols-2 md:grid-cols-2'>
                 <div className='flex items-center lg:order-1 md:order-1 order-2'>
                     <div className='about'>
-                        <h6 className='text-success text-2xl'>Welcome Foodies</h6>
-                        <h2 className='font-bold lg:text-4xl md:text-4xl sm:text-4xl text-3xl text-secondary my-5'>Different Spices For The Different Tastes 😋</h2>
-                        <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Omnis Unde Dolores Temporibus Hic Quam Debitis Tenetur Harum Nemo.</p>
-                        <button className='btn btn-success text-neutral mt-10 butn'>Order Now</button>
+                        <h6
+                            data-aos="fade-right"
+                            data-aos-offset="200"
+                            data-aos-delay="30"
+                            data-aos-duration="800"
+                            data-aos-easing="ease-in-out"
+                            className='text-success text-2xl'>Welcome Foodies
+                        </h6>
+                        <h2
+                            data-aos="fade-right"
+                            data-aos-offset="200"
+                            data-aos-delay="40"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            className='font-bold lg:text-4xl md:text-4xl sm:text-4xl text-3xl text-secondary my-5'>Different Spices For The Different Tastes 😋</h2>
+                        <p data-aos="fade-right"
+                            data-aos-offset="200"
+                            data-aos-delay="50"
+                            data-aos-duration="1200"
+                            data-aos-easing="ease-in-out">
+                            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Omnis Unde Dolores Temporibus Hic Quam Debitis Tenetur Harum Nemo.</p>
+                        <button
+                            className='btn btn-success text-neutral mt-10 butn duration-300'>Order Now</button>
                     </div>
                 </div>
                 <div className='flex items-center justify-items-end order-1'>
-                    <img className='w-full ' src={bannerimg1} alt="" />
+                    <img
+                        data-aos="fade-up"
+                        data-aos-offset="200"
+                        data-aos-delay="50"
+                        data-aos-duration="1200"
+                        data-aos-easing="ease-in-out"
+                        className='w-full ' src={bannerimg1} alt="" />
                 </div>
             </div>
 
