@@ -20,12 +20,14 @@ const Popular = () => {
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
                     className='text-success text-3xl text-center'>Popular Food</h6>
                 <h2
                     data-aos="fade-up"
-                    data-aos-offset="200"
+                    data-aos-offset="400"
                     data-aos-delay="50"
-                    data-aos-duration="1200" className='lg:text-4xl md:text-4xl sm:text-4xl text-3xl text-secondary my-3 text-center font-medium'>Our Special Dishes</h2>
+                    data-aos-duration="1200"
+                    data-aos-easing="ease-in-out" className='lg:text-4xl md:text-4xl sm:text-4xl text-3xl text-secondary my-3 text-center font-medium'>Our Special Dishes</h2>
 
             </div>
             <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 mt-14 gap-6'>
@@ -35,6 +37,7 @@ const Popular = () => {
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
                     class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
@@ -58,7 +61,8 @@ const Popular = () => {
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
-                    data-aos-duration="1100"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
                     class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
@@ -82,7 +86,8 @@ const Popular = () => {
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
-                    data-aos-duration="1200"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
                     class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
@@ -102,7 +107,13 @@ const Popular = () => {
                     </div>
                 </div>
 
-                <div class="card  bg-neutral shadow-xl border">
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
@@ -121,7 +132,13 @@ const Popular = () => {
                     </div>
                 </div>
 
-                <div class="card  bg-neutral shadow-xl border">
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
@@ -140,7 +157,13 @@ const Popular = () => {
                     </div>
                 </div>
 
-                <div class="card  bg-neutral shadow-xl border">
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
@@ -159,7 +182,13 @@ const Popular = () => {
                     </div>
                 </div>
 
-                <div class="card  bg-neutral shadow-xl border">
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
@@ -178,7 +207,13 @@ const Popular = () => {
                     </div>
                 </div>
 
-                <div class="card  bg-neutral shadow-xl border">
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
@@ -196,45 +231,6 @@ const Popular = () => {
                         </div>
                     </div>
                 </div>
-
-                {/* <div class="card  bg-neutral shadow-xl border">
-                <div className='text-end mr-4 mt-3 wishlist'>
-                        <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
-                    </div>
-                    <figure class="px-7 pt-0">
-                        <img src={food1} alt="food" class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center p-5">
-                        <h2 class="card-title text-warning">Delicious Food</h2>
-                        <span className='text-warning font-semibold'>
-                            <FontAwesomeIcon className='icon text-primary' icon={faStar} /> <FontAwesomeIcon className='icon text-primary' icon={faStar} /> <FontAwesomeIcon className='icon text-primary' icon={faStar} /> <FontAwesomeIcon className='icon text-primary' icon={faStar} /> <FontAwesomeIcon className='icon text-primary' icon={faStarHalfStroke} /> (56)
-                        </span>
-                        <h3 className='text-warning font-medium'>$40.00 <s className='font-normal'>$56.00</s></h3>
-                        <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn mt-2">Add To Cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card  bg-neutral shadow-xl border">
-                <div className='text-end mr-4 mt-3 wishlist'>
-                        <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
-                    </div>
-                    <figure class="px-7 pt-0">
-                        <img src={food2} alt="food" class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center p-5">
-                        <h2 class="card-title text-warning">Delicious Food</h2>
-                        <span className='text-warning font-semibold'>
-                            <FontAwesomeIcon className='icon text-primary' icon={faStar} /> <FontAwesomeIcon className='icon text-primary' icon={faStar} /> <FontAwesomeIcon className='icon text-primary' icon={faStar} /> <FontAwesomeIcon className='icon text-primary' icon={faStar} /> <FontAwesomeIcon className='icon text-primary' icon={faStarHalfStroke} /> (56)
-                        </span>
-                        <h3 className='text-warning font-medium'>$40.00 <s className='font-normal'>$56.00</s></h3>
-                        <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn mt-2">Add To Cart</button>
-                        </div>
-                    </div>
-                </div> */}
-
             </div>
         </div>
     );
