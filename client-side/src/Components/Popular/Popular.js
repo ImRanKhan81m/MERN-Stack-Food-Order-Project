@@ -15,12 +15,27 @@ const Popular = () => {
     return (
         <div className='mid-container'>
             <div className='about mt-10'>
-                <h6 className='text-success text-3xl text-center'>Popular Food</h6>
-                <h2 className='lg:text-4xl md:text-4xl sm:text-4xl text-3xl text-secondary my-3 text-center font-medium'>Our Special Dishes</h2>
+                <h6
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    className='text-success text-3xl text-center'>Popular Food</h6>
+                <h2
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1200" className='lg:text-4xl md:text-4xl sm:text-4xl text-3xl text-secondary my-3 text-center font-medium'>Our Special Dishes</h2>
+
             </div>
             <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 mt-14 gap-6'>
 
-                <div class="card  bg-neutral shadow-xl border">
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
@@ -39,8 +54,13 @@ const Popular = () => {
                     </div>
                 </div>
 
-                <div class="card  bg-neutral shadow-xl border">
-                <div className='text-end mr-4 mt-3 wishlist'>
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1100"
+                    class="card  bg-neutral shadow-xl border">
+                    <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
                     <figure class="px-7 pt-0">
@@ -58,8 +78,13 @@ const Popular = () => {
                     </div>
                 </div>
 
-                <div class="card  bg-neutral shadow-xl border">
-                <div className='text-end mr-4 mt-3 wishlist'>
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1200"
+                    class="card  bg-neutral shadow-xl border">
+                    <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
                     <figure class="px-7 pt-0">
@@ -78,7 +103,7 @@ const Popular = () => {
                 </div>
 
                 <div class="card  bg-neutral shadow-xl border">
-                <div className='text-end mr-4 mt-3 wishlist'>
+                    <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
                     <figure class="px-7 pt-0">
@@ -97,7 +122,7 @@ const Popular = () => {
                 </div>
 
                 <div class="card  bg-neutral shadow-xl border">
-                <div className='text-end mr-4 mt-3 wishlist'>
+                    <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
                     <figure class="px-7 pt-0">
@@ -116,7 +141,7 @@ const Popular = () => {
                 </div>
 
                 <div class="card  bg-neutral shadow-xl border">
-                <div className='text-end mr-4 mt-3 wishlist'>
+                    <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
                     <figure class="px-7 pt-0">
@@ -135,7 +160,7 @@ const Popular = () => {
                 </div>
 
                 <div class="card  bg-neutral shadow-xl border">
-                <div className='text-end mr-4 mt-3 wishlist'>
+                    <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
                     <figure class="px-7 pt-0">
@@ -154,7 +179,7 @@ const Popular = () => {
                 </div>
 
                 <div class="card  bg-neutral shadow-xl border">
-                <div className='text-end mr-4 mt-3 wishlist'>
+                    <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
                     <figure class="px-7 pt-0">
