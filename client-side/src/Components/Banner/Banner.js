@@ -51,7 +51,12 @@ const Banner = () => {
             </div>
 
             <div className='grid lg:grid-cols-6 md:grid-cols-6 sm:grid-cols-3 grid-cols-2 gap-5 py-10'>
-                <div class="card bg-neutral shadow-xl">
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="400"
+                    class="card bg-neutral shadow-xl">
                     <figure class="px-5 pt-10">
                         <img src={img1} alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -59,7 +64,12 @@ const Banner = () => {
                         <h2 class="card-title font-bold text-warning">Combo</h2>
                     </div>
                 </div>
-                <div class="card bg-neutral shadow-xl">
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="600"
+                    class="card bg-neutral shadow-xl">
                     <figure class="px-5 pt-10">
                         <img src={img2} alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -67,7 +77,12 @@ const Banner = () => {
                         <h2 class="card-title font-bold text-warning">Pizza</h2>
                     </div>
                 </div>
-                <div class="card bg-neutral shadow-xl">
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="800"
+                    class="card bg-neutral shadow-xl">
                     <figure class="px-5 pt-10">
                         <img src={img3} alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -75,7 +90,12 @@ const Banner = () => {
                         <h2 class="card-title font-bold text-warning">Burger</h2>
                     </div>
                 </div>
-                <div class="card bg-neutral shadow-xl">
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    class="card bg-neutral shadow-xl">
                     <figure class="px-5 pt-10">
                         <img src={img4} alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -83,7 +103,12 @@ const Banner = () => {
                         <h2 class="card-title font-bold text-warning">Chicken</h2>
                     </div>
                 </div>
-                <div class="card bg-neutral shadow-xl">
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1200"
+                    class="card bg-neutral shadow-xl">
                     <figure class="px-5 pt-10">
                         <img src={img5} alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -91,7 +116,12 @@ const Banner = () => {
                         <h2 class="card-title font-bold text-warning">Dinner</h2>
                     </div>
                 </div>
-                <div class="card bg-neutral shadow-xl">
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1400"
+                    class="card bg-neutral shadow-xl">
                     <figure class="px-5 pt-10">
                         <img src={img6} alt="Shoes" class="rounded-xl" />
                     </figure>
