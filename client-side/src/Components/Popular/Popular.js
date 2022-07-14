@@ -24,7 +24,7 @@ const Popular = () => {
                     className='text-success text-3xl text-center'>Popular Food</h6>
                 <h2
                     data-aos="fade-up"
-                    data-aos-offset="400"
+                    data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out" className='lg:text-4xl md:text-4xl sm:text-4xl text-3xl text-secondary my-3 text-center font-medium'>Our Special Dishes</h2>
@@ -36,7 +36,7 @@ const Popular = () => {
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
-                    data-aos-duration="1000"
+                    data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
                     class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
@@ -61,7 +61,7 @@ const Popular = () => {
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
-                    data-aos-duration="1000"
+                    data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
                     class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
@@ -86,7 +86,7 @@ const Popular = () => {
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
-                    data-aos-duration="1000"
+                    data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
                     class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
@@ -111,7 +111,7 @@ const Popular = () => {
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
-                    data-aos-duration="1000"
+                    data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
                     class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
@@ -136,7 +136,7 @@ const Popular = () => {
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
-                    data-aos-duration="1000"
+                    data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
                     class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
@@ -161,7 +161,7 @@ const Popular = () => {
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
-                    data-aos-duration="1000"
+                    data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
                     class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
@@ -186,7 +186,7 @@ const Popular = () => {
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
-                    data-aos-duration="1000"
+                    data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
                     class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
@@ -211,7 +211,7 @@ const Popular = () => {
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
-                    data-aos-duration="1000"
+                    data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
                     class="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
