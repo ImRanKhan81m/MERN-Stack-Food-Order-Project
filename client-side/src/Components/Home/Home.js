@@ -3,6 +3,7 @@ import About from '../About/About';
 import Album from '../Album/Album';
 import Banner from '../Banner/Banner';
 import Menu from '../Menu/Menu';
+import Order from '../Order/Order';
 import Popular from '../Popular/Popular';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <Popular/>
             <Album/>
             <Menu/>
+            <Order/>
         </div>
     );
 };
