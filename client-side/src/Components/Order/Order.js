@@ -5,14 +5,32 @@ import img3 from '../../assets/icon/icon-3.png'
 
 const Order = () => {
     return (
-        <div className='mid-container about'>
-            <h6 className='text-success text-3xl text-center'>Order Now</h6>
-            <h2 className='lg:text-4xl md:text-4xl sm:text-4xl text-3xl text-secondary my-3 text-center font-medium'>Fastest Home Delivery</h2>
+        <div className='mid-container about mt-10'>
+            <h6
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                className='text-success text-3xl text-center'>Order Now</h6>
+            <h2
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1200"
+                data-aos-easing="ease-in-out"
+                className='lg:text-4xl md:text-4xl sm:text-4xl text-3xl text-secondary my-3 text-center font-medium'>Fastest Home Delivery</h2>
 
             <div className='mt-10 grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 gap-5'>
 
 
-                <div class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
+                <div
+                    data-aos="fade-up-right"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1200"
+                    data-aos-easing="ease-in-out"
+                    class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
                     <div>
                         <img src={img1} alt="" />
                     </div>
@@ -20,7 +38,13 @@ const Order = () => {
                         <h2 className='text-warning font-semibold text-xl'>7:00AM To 10:30PM</h2>
                     </div>
                 </div>
-                <div class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
+                <div
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1200"
+                    data-aos-easing="ease-in-out"
+                    class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
                     <div>
                         <img src={img2} alt="" />
                     </div>
@@ -28,7 +52,13 @@ const Order = () => {
                         <h2 className='text-warning font-semibold text-xl'>8801309-091104</h2>
                     </div>
                 </div>
-                <div class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
+                <div
+                    data-aos="fade-up-left"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1200"
+                    data-aos-easing="ease-in-out" class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
+
                     <div>
                         <img src={img3} alt="" />
                     </div>
@@ -38,7 +68,13 @@ const Order = () => {
                 </div>
             </div>
 
-            <div className='bg-neutral mt-10 rounded-3xl grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2'>
+            <div
+                data-aos="zoom-in"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1200"
+                data-aos-easing="ease-in-out"
+                className='bg-neutral mt-10 rounded-3xl grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2'>
                 <div class="card-body lg:p-8 md:p-5 sm:p-3 px-3 pb-0">
                     <div class="form-control">
                         <label class="label">

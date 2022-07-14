@@ -8,7 +8,7 @@ import img6 from '../../assets/image/menu-6.png'
 
 const Menu = () => {
     return (
-        <div className='mid-container about'>
+        <div className='mid-container about mt-10'>
             <h6
                 data-aos="fade-up"
                 data-aos-offset="200"

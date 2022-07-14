@@ -6,7 +6,7 @@ import img4 from '../../assets/img4.png'
 
 const Album = () => {
     return (
-        <div className='mid-container'>
+        <div className='mid-container mt-10'>
             <div>
                 <img
                     data-aos="zoom-in"
