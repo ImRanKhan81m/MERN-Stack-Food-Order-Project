@@ -6,7 +6,7 @@ import img4 from '../../assets/img4.png'
 
 const Album = () => {
     return (
-        <div className='mid-container mt-10'>
+        <div className='mid-container'>
             <div>
                 <img
                     data-aos="zoom-in"
@@ -17,22 +17,22 @@ const Album = () => {
             </div>
             <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 gap-5 mt-2'>
                 <img
-                    data-aos="fade-right"
+                    data-aos="fade-up"
                     data-aos-offset="200"
-                    data-aos-delay="50"
-                    data-aos-duration="1200"
+                    data-aos-delay="30"
+                    data-aos-duration="1400"
                     className='rounded-3xl w-full' src={img2} alt="" />
                 <img
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
-                    data-aos-duration="1200"
+                    data-aos-duration="1400"
                     className='rounded-3xl w-full' src={img3} alt="" />
                 <img
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-offset="200"
-                    data-aos-delay="50"
-                    data-aos-duration="1200"
+                    data-aos-delay="70"
+                    data-aos-duration="1600"
                     className='rounded-3xl w-full' src={img4} alt="" />
             </div>
         </div>

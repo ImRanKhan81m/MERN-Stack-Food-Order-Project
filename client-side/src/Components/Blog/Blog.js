@@ -22,7 +22,7 @@ const Blog = () => {
                 className='lg:text-4xl md:text-4xl sm:text-4xl text-3xl text-secondary my-3 text-center font-medium'>Our Daily Stories</h2>
             <div className=' grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 gap-5 mt-10'>
                 <div
-                    data-aos="fade-up-right"
+                    data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1200"
@@ -68,7 +68,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <div
-                    data-aos="fade-up-left"
+                    data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1200"

@@ -25,10 +25,10 @@ const Order = () => {
 
 
                 <div
-                    data-aos="fade-up-right"
+                    data-aos="fade-up"
                     data-aos-offset="200"
-                    data-aos-delay="50"
-                    data-aos-duration="1200"
+                    data-aos-delay="30"
+                    data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
                     class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
                     <div>
@@ -53,10 +53,10 @@ const Order = () => {
                     </div>
                 </div>
                 <div
-                    data-aos="fade-up-left"
+                    data-aos="fade-up"
                     data-aos-offset="200"
-                    data-aos-delay="50"
-                    data-aos-duration="1200"
+                    data-aos-delay="70"
+                    data-aos-duration="1400"
                     data-aos-easing="ease-in-out" class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
 
                     <div>

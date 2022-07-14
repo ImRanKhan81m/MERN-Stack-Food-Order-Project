@@ -15,7 +15,7 @@ const Banner = () => {
                 <div className='flex items-center lg:order-1 md:order-1 order-2'>
                     <div className='about'>
                         <h6
-                            data-aos="fade-right"
+                            data-aos="fade-up"
                             data-aos-offset="200"
                             data-aos-delay="30"
                             data-aos-duration="800"
@@ -23,20 +23,20 @@ const Banner = () => {
                             className='text-success text-2xl'>Welcome Foodies
                         </h6>
                         <h2
-                            data-aos="fade-right"
+                            data-aos="fade-up"
                             data-aos-offset="200"
                             data-aos-delay="40"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out"
                             className='font-bold lg:text-4xl md:text-4xl sm:text-4xl text-3xl text-secondary my-5'>Different Spices For The Different Tastes 😋</h2>
-                        <p data-aos="fade-right"
+                        <p data-aos="fade-up"
                             data-aos-offset="200"
                             data-aos-delay="50"
                             data-aos-duration="1200"
                             data-aos-easing="ease-in-out">
                             Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Omnis Unde Dolores Temporibus Hic Quam Debitis Tenetur Harum Nemo.</p>
                         <div
-                            data-aos="fade-right"
+                            data-aos="fade-up"
                             data-aos-offset="200"
                             data-aos-delay="50"
                             data-aos-duration="1400"
