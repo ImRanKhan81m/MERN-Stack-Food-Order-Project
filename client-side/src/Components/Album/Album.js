@@ -8,12 +8,32 @@ const Album = () => {
     return (
         <div className='mid-container'>
             <div>
-                <img className='rounded-3xl w-full' src={img1} alt="" />
+                <img
+                    data-aos="zoom-in"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1200"
+                    className='rounded-3xl w-full' src={img1} alt="" />
             </div>
             <div className='grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 gap-5 mt-2'>
-                <img className='rounded-3xl w-full' src={img2} alt="" />
-                <img className='rounded-3xl w-full' src={img3} alt="" />
-                <img className='rounded-3xl w-full' src={img4} alt="" />
+                <img
+                    data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1200"
+                    className='rounded-3xl w-full' src={img2} alt="" />
+                <img
+                    data-aos="fade-up"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1200"
+                    className='rounded-3xl w-full' src={img3} alt="" />
+                <img
+                    data-aos="fade-left"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1200"
+                    className='rounded-3xl w-full' src={img4} alt="" />
             </div>
         </div>
     );
