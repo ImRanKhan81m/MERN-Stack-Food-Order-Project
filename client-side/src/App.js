@@ -9,7 +9,7 @@ import Navbar from './Components/Navbar/Navbar';
 function App() {
   const [dark, setDark] = useState(false)
   return (
-    <div data-theme={dark ? "dark" : "light"}>
+    <div data-theme={dark ? "light" : "dark"}>
       <Navbar setDark={setDark} dark={dark} />
       <Routes>
         <Route path='/' element={<Home />}></Route>
