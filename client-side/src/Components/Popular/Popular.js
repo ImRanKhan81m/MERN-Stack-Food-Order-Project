@@ -52,7 +52,7 @@ const Popular = () => {
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>
                         <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn mt-2">Add To Cart</button>
+                            <button class="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ const Popular = () => {
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>
                         <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn mt-2">Add To Cart</button>
+                            <button class="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@ const Popular = () => {
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>
                         <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn mt-2">Add To Cart</button>
+                            <button class="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
                         </div>
                     </div>
                 </div>
@@ -126,7 +126,7 @@ const Popular = () => {
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>
                         <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn mt-2">Add To Cart</button>
+                            <button class="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
                         </div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@ const Popular = () => {
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>
                         <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn mt-2">Add To Cart</button>
+                            <button class="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
                         </div>
                     </div>
                 </div>
@@ -178,7 +178,7 @@ const Popular = () => {
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>
                         <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn mt-2">Add To Cart</button>
+                            <button class="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
                         </div>
                     </div>
                 </div>
@@ -204,7 +204,7 @@ const Popular = () => {
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>
                         <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn mt-2">Add To Cart</button>
+                            <button class="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
                         </div>
                     </div>
                 </div>
@@ -230,7 +230,7 @@ const Popular = () => {
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>
                         <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn mt-2">Add To Cart</button>
+                            <button class="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
                         </div>
                     </div>
                 </div>
