@@ -15,12 +15,12 @@ const Navbar = ({ setDark, dark }) => {
                         <ul tabIndex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 border border-info">
 
                             <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faHome} /> <span className='item'>Home</span></Link></li>
-                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faBurger} /> <span className='item'>About</span></Link></li>
-                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faBarsProgress} /> <span className='item'>Popular</span></Link></li>
-                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faStar} /> <span className='item'>Menu</span></Link></li>
-                            <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faContactBook} /> <span className='item'>Order</span></Link></li>
-                            <li><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faBlog} /> <span className='item'>Blog</span></Link></li>
-                            <li><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faContactBook} /> <span className='item'>Contact</span></Link></li>
+                            <li className='mb-1'><Link to='/about'><FontAwesomeIcon className='icon text-secondary' icon={faBurger} /> <span className='item'>About</span></Link></li>
+                            <li className='mb-1'><Link to='/popular'><FontAwesomeIcon className='icon text-secondary' icon={faBarsProgress} /> <span className='item'>Popular</span></Link></li>
+                            <li className='mb-1'><Link to='/menu'><FontAwesomeIcon className='icon text-secondary' icon={faStar} /> <span className='item'>Menu</span></Link></li>
+                            <li className='mb-1'><Link to='/order'><FontAwesomeIcon className='icon text-secondary' icon={faContactBook} /> <span className='item'>Order</span></Link></li>
+                            <li><Link to='/blog'><FontAwesomeIcon className='icon text-secondary' icon={faBlog} /> <span className='item'>Blog</span></Link></li>
+                            <li><Link to='/contact'><FontAwesomeIcon className='icon text-secondary' icon={faContactBook} /> <span className='item'>Contact</span></Link></li>
                         </ul>
                     </div>
                     <Link className="logo text-2xl font-bold text-secondary" to={'/'}><FontAwesomeIcon className='text-primary' icon={faUtensils} /> Food</Link>
@@ -28,12 +28,12 @@ const Navbar = ({ setDark, dark }) => {
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal p-0">
                         <li className='mr-1 hover:text-primary'><Link to='/'>Home</Link></li>
-                        <li className='mr-1 hover:text-primary'><Link to='/'>About</Link></li>
-                        <li className='mr-1 hover:text-primary'><Link to='/'>Popular</Link></li>
-                        <li className='mr-1 hover:text-primary'><Link to='/'>Menu</Link></li>
-                        <li className='mr-1 hover:text-primary'><Link to='/'>Order</Link></li>
-                        <li className='mr-2 hover:text-primary'><Link to='/'>Blog</Link></li>
-                        <li className='mr-2 hover:text-primary'><Link to='/'>Contact</Link></li>
+                        <li className='mr-1 hover:text-primary'><Link to='/about'>About</Link></li>
+                        <li className='mr-1 hover:text-primary'><Link to='/popular'>Popular</Link></li>
+                        <li className='mr-1 hover:text-primary'><Link to='/menu'>Menu</Link></li>
+                        <li className='mr-1 hover:text-primary'><Link to='/order'>Order</Link></li>
+                        <li className='mr-2 hover:text-primary'><Link to='/blog'>Blog</Link></li>
+                        <li className='mr-2 hover:text-primary'><Link to='/contact'>Contact</Link></li>
                     </ul>
                 </div>
                 <div class="navbar-end">

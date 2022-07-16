@@ -11,6 +11,7 @@ import food6 from '../../assets/image/food-6.png'
 import food7 from '../../assets/image/food-7.png'
 import food8 from '../../assets/image/food-8.png'
 
+
 const Popular = () => {
     return (
         <div className='mid-container'>

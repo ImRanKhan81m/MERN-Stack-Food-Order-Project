@@ -7,6 +7,11 @@ import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import About from './Components/About/About';
+import Popular from './Components/Popular/Popular';
+import Menu from './Components/Menu/Menu';
+import Order from './Components/Order/Order';
+import Blog from './Components/Blog/Blog';
 
 function App() {
   const [dark, setDark] = useState(false)
@@ -18,6 +23,12 @@ function App() {
       <Navbar setDark={setDark} dark={dark} />
       <Routes>
         <Route path='/' element={<Home />}></Route>
+        <Route path='/about' element={<About />}></Route>
+        <Route path='/popular' element={<Popular />}></Route>
+        <Route path='/menu' element={<Menu />}></Route>
+        <Route path='/order' element={<Order />}></Route>
+        <Route path='/blog' element={<Blog />}></Route>
+        <Route path='/contact' element={<Order />}></Route>
       </Routes>
       <Footer />
     </div>
