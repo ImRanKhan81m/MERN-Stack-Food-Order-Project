@@ -1,13 +1,31 @@
 import React from 'react';
 import { Link, } from 'react-router-dom';
 import { useForm } from "react-hook-form";
-import image from '../../../assets/image/food-7.png'
+import auth from '../../../firebase.init';
+import { useCreateUserWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 
 const Register = () => {
     const { register, formState: { errors }, handleSubmit } = useForm();
+    const [
+        createUserWithEmailAndPassword,
+        user,
+        loading,
+        error,
+    ] = useCreateUserWithEmailAndPassword(auth);
+    const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
 
-    const onSubmit = data => {
+
+
+    let signUpError;
+    if (error || gError) {
+        signUpError = <p className='text-red-500 py-3'>{error?.message || gError?.message}</p>
+    }
+
+
+    const onSubmit = async data => {
         console.log(data);
+        await createUserWithEmailAndPassword(data.email, data.password);
+
     }
     return (
         <div className='mid-container lg:my-10'>
@@ -87,7 +105,8 @@ const Register = () => {
                                     {errors.password?.type === 'minLength' && <span className="label-text-alt text-red-500">{errors.password.message}</span>}
                                 </label>
                             </div>
-                            <input className='btn w-full btn-primary font-bold' type="submit " value="Register" />
+                            {signUpError}
+                            <input className='btn w-full btn-primary font-bold' type="submit" value="Register" />
                         </form>
                         <p className='py-3 text-center '>Already have an Account?  <Link to="/login" ><span className=' link text-primary ml-1 '> Please Login</span></Link></p>
                         <div className="divider">OR</div>
