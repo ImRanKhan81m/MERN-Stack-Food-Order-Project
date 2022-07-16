@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, } from 'react-router-dom';
 import { useForm } from "react-hook-form";
+import image from '../../../assets/image/food-7.png'
 
 const Login = () => {
     const { register, formState: { errors }, handleSubmit } = useForm();
@@ -9,7 +10,10 @@ const Login = () => {
         console.log(data);
     }
     return (
-        <div className='mid-container mt-10'>
+        <div className='mid-container mt-10 grid grid-cols-2'>
+            <div>
+                <img src={image} alt="" />
+            </div>
                 <div className="card flex-shrink-0 w-full lg:max-w-lg md:max-w-lg sm:max-w-lg max-w-sm shadow-2xl bg-base-100">
                     <div className="card-body border rounded-2xl">
                         <h1 className='text-3xl text-center font-bold'>Login</h1>
