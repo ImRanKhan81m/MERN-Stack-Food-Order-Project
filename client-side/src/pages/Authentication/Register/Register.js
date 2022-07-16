@@ -3,7 +3,7 @@ import { Link, } from 'react-router-dom';
 import { useForm } from "react-hook-form";
 import image from '../../../assets/image/food-7.png'
 
-const Login = () => {
+const Register = () => {
     const { register, formState: { errors }, handleSubmit } = useForm();
 
     const onSubmit = data => {
@@ -17,15 +17,34 @@ const Login = () => {
             <div className='flex justify-center items-center'>
                 <div className="card flex-shrink-0 w-full lg:max-w-lg md:max-w-lg sm:max-w-lg max-w-sm shadow-2xl bg-base-100 ">
                     <div className="card-body border rounded-2xl ">
-                        <h1 className='text-3xl text-center font-bold'>Login</h1>
+                        <h1 className='text-3xl text-center font-bold'>Sign-Up </h1>
                         <form onSubmit={handleSubmit(onSubmit)}>
+                            <div className="form-control">
+                                <label className="label">
+                                    <span className="label-text">Name</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    placeholder="Enter Your Name"
+                                    className="input input-bordered focus:outline-none"
+                                    {...register("name", {
+                                        required: {
+                                            value: true,
+                                            message: 'Name is Required'
+                                        }
+                                    })}
+                                />
+                                <label className="label">
+                                    {errors.name?.type === 'required' && <span className="label-text-alt text-red-500">{errors.name.message}</span>}
+                                </label>
+                            </div>
                             <div className="form-control ">
                                 <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
                                 <input
                                     type="email"
-                                    placeholder="Your Email"
+                                    placeholder="Enter Your Email"
                                     className="input input-bordered focus:outline-none"
                                     {...register("email", {
                                         required: {
@@ -68,9 +87,9 @@ const Login = () => {
                                     {errors.password?.type === 'minLength' && <span className="label-text-alt text-red-500">{errors.password.message}</span>}
                                 </label>
                             </div>
-                            <input className='btn w-full btn-primary font-bold' type="submit" value="LOGIN" />
+                            <input className='btn w-full btn-primary font-bold' type="submit " value="Register" />
                         </form>
-                        <p className='py-3 text-center '>New Customer?  <Link to="/register" ><span className=' link text-primary ml-1'> Create New Account</span></Link></p>
+                        <p className='py-3 text-center '>Already have an Account?  <Link to="/login" ><span className=' link text-primary ml-1 '> Please Login</span></Link></p>
                         <div className="divider">OR</div>
                         <button className="btn btn-outline font-bold">Continue with google</button>
                     </div>
@@ -80,4 +99,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default Register;

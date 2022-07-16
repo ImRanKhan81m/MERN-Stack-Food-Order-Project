@@ -13,6 +13,7 @@ import Menu from './Components/Menu/Menu';
 import Order from './Components/Order/Order';
 import Blog from './Components/Blog/Blog';
 import Login from './pages/Authentication/Login/Login';
+import Register from './pages/Authentication/Register/Register';
 
 function App() {
   const [dark, setDark] = useState(false)
@@ -31,6 +32,7 @@ function App() {
         <Route path='/blog' element={<Blog />}></Route>
         <Route path='/contact' element={<Order />}></Route>
         <Route path='/login' element={<Login />}></Route>
+        <Route path='/register' element={<Register />}></Route>
       </Routes>
       <Footer />
     </div>
