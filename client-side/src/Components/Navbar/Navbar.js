@@ -3,8 +3,19 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRightArrowLeft, faBarsProgress, faBlog, faBurger, faCartShopping, faContactBook, faHeart, faHome, faList, faListCheck, faRightFromBracket, faStar, faUser, faUserAlt, faUtensils } from '@fortawesome/free-solid-svg-icons'
 import './Navbar.css'
 import { Link } from 'react-router-dom';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../firebase.init';
+import { signOut } from 'firebase/auth';
 
 const Navbar = ({ setDark, dark }) => {
+    const [user] = useAuthState(auth);
+
+    console.log(user);
+    const logout = () => {
+        signOut(auth);
+      };
+
+
     return (
         <div class="sticky top-0 z-10 shadow navbar-content navbar bg-base-100 p-0">
             <div class="navbar-start">
@@ -50,8 +61,25 @@ const Navbar = ({ setDark, dark }) => {
 
                 <Link className="navbar-logo bg-accent hover:bg-primary mr-3 indicator" to={'/'} ><FontAwesomeIcon className='icon text-secondary' icon={faCartShopping} /><span class="indicator-item badge badge-secondary text-accent">5</span></Link>
 
+                {user ? <><div class="dropdown dropdown-end dropdown-items">
+                    <label tabIndex="1">
+                        <div class="avatar p-2">
+                            <div class="w-10 rounded-full">
+                                <img src="https://placeimg.com/192/192/people" alt='Profile' />
+                            </div>
+                        </div>
+                    </label>
+                    <ul tabIndex="1" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 bg-base-100 border border-info">
+                        <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faUserAlt} /> <span className='item'>Profile</span></Link></li>
+                        <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faList} /> <span className='item'>My Orders</span></Link></li>
+                        <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faHeart} /> <span className='item'>My Wishlist</span></Link></li>
+                        <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary ' icon={faStar} /> <span className='item'>My Reviews</span></Link></li>
+                        <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary ' icon={faArrowRightArrowLeft} /> <span className='item'>Returns & Cancellation</span></Link></li>
+                        <li><Link onClick={logout} to='/'><FontAwesomeIcon className='icon text-secondary ' icon={faRightFromBracket} /> <span className='item'>Log Out</span></Link></li>
+                    </ul>
+                </div></> : <Link to="/login"><button className='btn btn-sm btn-success btn-outline'>Login</button></Link>}
 
-                <Link to="/login"><button className='btn btn-sm btn-success btn-outline'>Login</button></Link>
+                {/* <Link to="/login"><button className='btn btn-sm btn-success btn-outline'>Login</button></Link> */}
 
                 {/* <div class="dropdown dropdown-end dropdown-items">
                     <label tabIndex="1">

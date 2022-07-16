@@ -1,13 +1,37 @@
-import React from 'react';
-import { Link, } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Link, useLocation, useNavigate, } from 'react-router-dom';
 import { useForm } from "react-hook-form";
 import image from '../../../assets/image/food-7.png'
+import auth from '../../../firebase.init';
+import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 
 const Login = () => {
     const { register, formState: { errors }, handleSubmit } = useForm();
+    const [
+        signInWithEmailAndPassword,
+        user,
+        loading,
+        error,
+    ] = useSignInWithEmailAndPassword(auth);
+    const location = useLocation();
+    const navigate = useNavigate();
+    const from = location.state?.from?.pathname || "/";
 
+    // useEffect(() => {
+    //         navigate(from, { replace: true })
+    // }, [from, navigate])
+
+
+    if(user){
+        navigate(from, { replace: true })
+    }
+    
+    let signInError;
+    if (error) {
+        signInError = <p className='text-red-500 py-3'>Sorry! These credentials do not match our records.</p>
+    }
     const onSubmit = data => {
-        console.log(data);
+        signInWithEmailAndPassword(data.email, data.password)
     }
     return (
         <div className='mid-container lg:my-10'>
@@ -68,6 +92,7 @@ const Login = () => {
                                     {errors.password?.type === 'minLength' && <span className="label-text-alt text-red-500">{errors.password.message}</span>}
                                 </label>
                             </div>
+                            {signInError}
                             <input className='btn w-full btn-primary font-bold' type="submit" value="LOGIN" />
                         </form>
                         <p className='py-3 text-center '>New Customer?  <Link to="/register" ><span className=' link text-primary ml-1'> Create New Account</span></Link></p>
