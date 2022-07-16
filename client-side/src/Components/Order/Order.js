@@ -30,7 +30,7 @@ const Order = () => {
                     data-aos-delay="50"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
-                    class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
+                    className=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
                     <div>
                         <img src={img1} alt="" />
                     </div>
@@ -44,7 +44,7 @@ const Order = () => {
                     data-aos-delay="50"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
-                    class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
+                    className=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
                     <div>
                         <img src={img2} alt="" />
                     </div>
@@ -57,7 +57,7 @@ const Order = () => {
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1400"
-                    data-aos-easing="ease-in-out" class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
+                    data-aos-easing="ease-in-out" className=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
 
                     <div>
                         <img src={img3} alt="" />
@@ -75,55 +75,55 @@ const Order = () => {
                 data-aos-duration="1200"
                 data-aos-easing="ease-in-out"
                 className='bg-neutral mt-10 rounded-3xl grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2'>
-                <div class="card-body lg:p-8 md:p-5 sm:p-3 px-3 pb-0">
-                    <div class="form-control">
-                        <label class="label">
-                            <span class="label-text text-warning text-xl font-semibold">Your Name:</span>
+                <div className="card-body lg:p-8 md:p-5 sm:p-3 px-3 pb-0">
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text text-warning text-xl font-semibold">Your Name:</span>
                         </label>
-                        <input type="name" placeholder="Customer's Name" class="input input-bordered" />
+                        <input type="name" placeholder="Customer's Name" className="input input-bordered" />
                     </div>
-                    <div class="form-control">
-                        <label class="label">
-                            <span class="label-text text-warning text-xl font-semibold">Your Order:</span>
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text text-warning text-xl font-semibold">Your Order:</span>
                         </label>
-                        <input type="text" placeholder="Food Your Want" class="input input-bordered" />
+                        <input type="text" placeholder="Food Your Want" className="input input-bordered" />
                     </div>
-                    <div class="form-control">
-                        <label class="label">
-                            <span class="label-text text-warning text-xl font-semibold">Your Details:</span>
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text text-warning text-xl font-semibold">Your Details:</span>
                         </label>
-                        <input type="text" placeholder="Your Message" class="input input-bordered" />
+                        <input type="text" placeholder="Your Message" className="input input-bordered" />
                     </div>
 
-                    <div class="form-control mt-2">
-                        <textarea type="text" placeholder="Your Address" class="textarea input-bordered h-40" />
+                    <div className="form-control mt-2">
+                        <textarea type="text" placeholder="Your Address" className="textarea input-bordered h-40" />
                     </div>
                 </div>
-                <div class="card-body lg:p-8 md:p-5 sm:p-3 px-3 pt-0">
-                    <div class="form-control">
-                        <label class="label">
-                            <span class="label-text text-warning text-xl font-semibold">Your Number:</span>
+                <div className="card-body lg:p-8 md:p-5 sm:p-3 px-3 pt-0">
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text text-warning text-xl font-semibold">Your Number:</span>
                         </label>
-                        <input type="number" placeholder="Customer's Number" class="input input-bordered" />
+                        <input type="number" placeholder="Customer's Number" className="input input-bordered" />
                     </div>
-                    <div class="form-control">
-                        <label class="label">
-                            <span class="label-text text-warning text-xl font-semibold">How Much:</span>
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text text-warning text-xl font-semibold">How Much:</span>
                         </label>
-                        <input type="text" placeholder="Number of orders" class="input input-bordered" />
+                        <input type="text" placeholder="Number of orders" className="input input-bordered" />
                     </div>
-                    <div class="form-control">
-                        <label class="label">
-                            <span class="label-text text-warning text-xl font-semibold">Your Details:</span>
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text text-warning text-xl font-semibold">Your Details:</span>
                         </label>
-                        <input type="text" placeholder="Your Message" class="input input-bordered" />
+                        <input type="text" placeholder="Your Message" className="input input-bordered" />
                     </div>
 
-                    <div class="form-control mt-3">
-                        <iframe className="map rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d920.8655458961642!2d91.86358437218747!3d22.599209801638004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1657774381763!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
+                    <div className="form-control mt-3">
+                        <iframe className="map rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d920.8655458961642!2d91.86358437218747!3d22.599209801638004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1657774381763!5m2!1sen!2sbd" allowFullScreen="" loading="lazy"></iframe>
                     </div>
-                    <div class="mt-6 text-end">
-                        <button class="btn btn-success text-neutral butn btn-sm">Proceed To Order</button>
+                    <div className="mt-6 text-end">
+                        <button className="btn btn-success text-neutral butn btn-sm">Proceed To Order</button>
                     </div>
                 </div>
             </div>

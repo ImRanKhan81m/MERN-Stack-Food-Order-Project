@@ -39,21 +39,21 @@ const Popular = () => {
                     data-aos-delay="50"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
-                    class="card  bg-neutral shadow-xl border">
+                    className="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
-                    <figure class="px-3 ">
-                        <img src={food1} alt="food" class="rounded-xl" />
+                    <figure className="px-3 ">
+                        <img src={food1} alt="food" className="rounded-xl" />
                     </figure>
-                    <div class="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
-                        <h2 class="card-title text-warning">Delicious Food</h2>
+                    <div className="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
+                        <h2 className="card-title text-warning">Delicious Food</h2>
                         <span className='text-warning font-semibold'>
                             <FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStarHalfStroke} /> (56)
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>
-                        <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
+                        <div className="card-actions">
+                            <button className="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
                         </div>
                     </div>
                 </div>
@@ -63,21 +63,21 @@ const Popular = () => {
                     data-aos-delay="50"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
-                    class="card  bg-neutral shadow-xl border">
+                    className="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
-                    <figure class="px-3 ">
-                        <img src={food2} alt="food" class="rounded-xl" />
+                    <figure className="px-3 ">
+                        <img src={food2} alt="food" className="rounded-xl" />
                     </figure>
-                    <div class="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
-                        <h2 class="card-title text-warning">Delicious Food</h2>
+                    <div className="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
+                        <h2 className="card-title text-warning">Delicious Food</h2>
                         <span className='text-warning font-semibold'>
                             <FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStarHalfStroke} /> (56)
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>
-                        <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
+                        <div className="card-actions">
+                            <button className="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
                         </div>
                     </div>
                 </div>
@@ -87,156 +87,156 @@ const Popular = () => {
                     data-aos-delay="50"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
-                    class="card  bg-neutral shadow-xl border">
+                    className="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
-                    <figure class="px-3 ">
-                        <img src={food3} alt="food" class="rounded-xl" />
+                    <figure className="px-3 ">
+                        <img src={food3} alt="food" className="rounded-xl" />
                     </figure>
-                    <div class="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
-                        <h2 class="card-title text-warning">Delicious Food</h2>
+                    <div className="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
+                        <h2 className="card-title text-warning">Delicious Food</h2>
                         <span className='text-warning font-semibold'>
                             <FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStarHalfStroke} /> (56)
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>
-                        <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
+                        <div className="card-actions">
+                            <button className="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
                         </div>
                     </div>
                 </div>
 
-                
+
                 <div
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
-                    class="card  bg-neutral shadow-xl border">
+                    className="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
-                    <figure class="px-3 ">
-                        <img src={food4} alt="food" class="rounded-xl" />
+                    <figure className="px-3 ">
+                        <img src={food4} alt="food" className="rounded-xl" />
                     </figure>
-                    <div class="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
-                        <h2 class="card-title text-warning">Delicious Food</h2>
+                    <div className="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
+                        <h2 className="card-title text-warning">Delicious Food</h2>
                         <span className='text-warning font-semibold'>
                             <FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStarHalfStroke} /> (56)
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>
-                        <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
+                        <div className="card-actions">
+                            <button className="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
                         </div>
                     </div>
                 </div>
 
-                
+
                 <div
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
-                    class="card  bg-neutral shadow-xl border">
+                    className="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
-                    <figure class="px-3 ">
-                        <img src={food5} alt="food" class="rounded-xl" />
+                    <figure className="px-3 ">
+                        <img src={food5} alt="food" className="rounded-xl" />
                     </figure>
-                    <div class="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
-                        <h2 class="card-title text-warning">Delicious Food</h2>
+                    <div className="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
+                        <h2 className="card-title text-warning">Delicious Food</h2>
                         <span className='text-warning font-semibold'>
                             <FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStarHalfStroke} /> (56)
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>
-                        <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
+                        <div className="card-actions">
+                            <button className="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
                         </div>
                     </div>
                 </div>
 
-                
+
                 <div
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
-                    class="card  bg-neutral shadow-xl border">
+                    className="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
-                    <figure class="px-3 ">
-                        <img src={food6} alt="food" class="rounded-xl" />
+                    <figure className="px-3 ">
+                        <img src={food6} alt="food" className="rounded-xl" />
                     </figure>
-                    <div class="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
-                        <h2 class="card-title text-warning">Delicious Food</h2>
+                    <div className="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
+                        <h2 className="card-title text-warning">Delicious Food</h2>
                         <span className='text-warning font-semibold'>
                             <FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStarHalfStroke} /> (56)
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>
-                        <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
+                        <div className="card-actions">
+                            <button className="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
                         </div>
                     </div>
                 </div>
 
-                
+
                 <div
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
-                    class="card  bg-neutral shadow-xl border">
+                    className="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
-                    <figure class="px-3">
-                        <img src={food7} alt="food" class="rounded-xl" />
+                    <figure className="px-3">
+                        <img src={food7} alt="food" className="rounded-xl" />
                     </figure>
-                    <div class="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
-                        <h2 class="card-title text-warning">Delicious Food</h2>
+                    <div className="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
+                        <h2 className="card-title text-warning">Delicious Food</h2>
                         <span className='text-warning font-semibold'>
                             <FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStarHalfStroke} /> (56)
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>
-                        <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
+                        <div className="card-actions">
+                            <button className="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
                         </div>
                     </div>
                 </div>
 
-                
+
                 <div
                     data-aos="fade-up"
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
-                    class="card  bg-neutral shadow-xl border">
+                    className="card  bg-neutral shadow-xl border">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
-                    <figure class="px-3">
-                        <img src={food8} alt="food" class="rounded-xl" />
+                    <figure className="px-3">
+                        <img src={food8} alt="food" className="rounded-xl" />
                     </figure>
-                    <div class="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
-                        <h2 class="card-title text-warning">Delicious Food</h2>
+                    <div className="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
+                        <h2 className="card-title text-warning">Delicious Food</h2>
                         <span className='text-warning font-semibold'>
                             <FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStarHalfStroke} /> (56)
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>
-                        <div class="card-actions">
-                            <button class="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
+                        <div className="card-actions">
+                            <button className="btn btn-sm btn-success text-neutral butn my-2">Add To Cart</button>
                         </div>
                     </div>
                 </div>
 
-                
+
             </div>
         </div>
     );

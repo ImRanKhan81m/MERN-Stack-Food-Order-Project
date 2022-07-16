@@ -55,7 +55,7 @@ const About = () => {
                                 data-aos-delay="50"
                                 data-aos-duration="1600"
                                 data-aos-easing="ease-in-out"
-                                class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
+                                className=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
                                 <div>
                                     <img src={logo1} alt="" />
                                 </div>
@@ -69,7 +69,7 @@ const About = () => {
                                 data-aos-delay="50"
                                 data-aos-duration="1800"
                                 data-aos-easing="ease-in-out"
-                                class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
+                                className=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
                                 <div>
                                     <img src={logo2} alt="" />
                                 </div>
@@ -83,7 +83,7 @@ const About = () => {
                                 data-aos-delay="50"
                                 data-aos-duration="2000"
                                 data-aos-easing="ease-in-out"
-                                class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
+                                className=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
                                 <div>
                                     <img src={logo3} alt="" />
                                 </div>

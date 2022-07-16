@@ -27,20 +27,20 @@ const Blog = () => {
                     data-aos-delay="50"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
-                    class="card card-compact bg-base-100 shadow-xl">
+                    className="card card-compact bg-base-100 shadow-xl">
                     <figure><img src={img1} alt="Blog" /></figure>
-                    <div class="card-body bg-neutral">
-                        <div class="text-sm breadcrumbs">
+                    <div className="card-body bg-neutral">
+                        <div className="text-sm breadcrumbs">
                             <ul className='text-warning'>
                                 <li className='duration-300 hover:text-success'><a>Food</a></li>
                                 <li className='duration-300 hover:text-success'><a>Burger</a></li>
                                 <li className='duration-300 hover:text-success'><a>Pizza</a></li>
                             </ul>
                         </div>
-                        <h2 class="text-xl font-semibold text-warning">Blog Title Goes Here...</h2>
+                        <h2 className="text-xl font-semibold text-warning">Blog Title Goes Here...</h2>
                         <p className='text-warning'>Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Autem, Earum.</p>
-                        <div class="card-actions justify-start">
-                            <button class="btn btn-success text-neutral butn btn-sm mt-3">Read More</button>
+                        <div className="card-actions justify-start">
+                            <button className="btn btn-success text-neutral butn btn-sm mt-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -50,20 +50,20 @@ const Blog = () => {
                     data-aos-delay="50"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
-                    class="card card-compact bg-base-100 shadow-xl">
+                    className="card card-compact bg-base-100 shadow-xl">
                     <figure><img src={img2} alt="Blog" /></figure>
-                    <div class="card-body bg-neutral">
-                        <div class="text-sm breadcrumbs">
+                    <div className="card-body bg-neutral">
+                        <div className="text-sm breadcrumbs">
                             <ul className='text-warning'>
                                 <li className='duration-300 hover:text-success'><a>Food</a></li>
                                 <li className='duration-300 hover:text-success'><a>Burger</a></li>
                                 <li className='duration-300 hover:text-success'><a>Pizza</a></li>
                             </ul>
                         </div>
-                        <h2 class="text-xl font-semibold text-warning">Blog Title Goes Here...</h2>
+                        <h2 className="text-xl font-semibold text-warning">Blog Title Goes Here...</h2>
                         <p className='text-warning'>Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Autem, Earum.</p>
-                        <div class="card-actions justify-start">
-                            <button class="btn btn-success text-neutral butn btn-sm mt-3">Read More</button>
+                        <div className="card-actions justify-start">
+                            <button className="btn btn-success text-neutral butn btn-sm mt-3">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -73,20 +73,20 @@ const Blog = () => {
                     data-aos-delay="50"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out"
-                    class="card card-compact bg-base-100 shadow-xl">
+                    className="card card-compact bg-base-100 shadow-xl">
                     <figure><img src={img3} alt="Blog" /></figure>
-                    <div class="card-body bg-neutral">
-                        <div class="text-sm breadcrumbs">
+                    <div className="card-body bg-neutral">
+                        <div className="text-sm breadcrumbs">
                             <ul className='text-warning'>
                                 <li className='duration-300 hover:text-success'><a>Food</a></li>
                                 <li className='duration-300 hover:text-success'><a>Burger</a></li>
                                 <li className='duration-300 hover:text-success'><a>Pizza</a></li>
                             </ul>
                         </div>
-                        <h2 class="text-xl font-semibold text-warning">Blog Title Goes Here...</h2>
+                        <h2 className="text-xl font-semibold text-warning">Blog Title Goes Here...</h2>
                         <p className='text-warning'>Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Autem, Earum.</p>
-                        <div class="card-actions justify-start">
-                            <button class="btn btn-success text-neutral butn btn-sm mt-3">Read More</button>
+                        <div className="card-actions justify-start">
+                            <button className="btn btn-success text-neutral butn btn-sm mt-3">Read More</button>
                         </div>
                     </div>
                 </div>

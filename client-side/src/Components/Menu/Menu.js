@@ -28,7 +28,7 @@ const Menu = () => {
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1200"
-                    class="w-full rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
+                    className="w-full rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
                     <div>
                         <img src={img1} alt="" />
                     </div>
@@ -42,7 +42,7 @@ const Menu = () => {
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1200"
-                    class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
+                    className=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
                     <div>
                         <img src={img2} alt="" />
                     </div>
@@ -56,7 +56,7 @@ const Menu = () => {
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1200"
-                    class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
+                    className=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
                     <div>
                         <img src={img3} alt="" />
                     </div>
@@ -70,7 +70,7 @@ const Menu = () => {
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1400"
-                    class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
+                    className=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
                     <div>
                         <img src={img4} alt="" />
                     </div>
@@ -84,7 +84,7 @@ const Menu = () => {
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1400"
-                    class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
+                    className=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
                     <div>
                         <img src={img5} alt="" />
                     </div>
@@ -98,7 +98,7 @@ const Menu = () => {
                     data-aos-offset="200"
                     data-aos-delay="50"
                     data-aos-duration="1400"
-                    class=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
+                    className=" rounded-2xl bg-neutral shadow-xl flex gap-5 items-center justify-center p-3">
                     <div>
                         <img src={img6} alt="" />
                     </div>
