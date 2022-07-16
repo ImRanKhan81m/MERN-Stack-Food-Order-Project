@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation, useNavigate, } from 'react-router-dom';
 import { useForm } from "react-hook-form";
+import image from '../../../assets/icon/Google.png'
 import auth from '../../../firebase.init';
 import { useCreateUserWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 
@@ -18,13 +19,17 @@ const Register = () => {
     const from = location.state?.from?.pathname || "/";
 
 
-    if (user) {
+    if (user || gUser) {
         navigate(from, { replace: true })
     }
 
     let signUpError;
     if (error || gError) {
         signUpError = <p className='text-red-500 py-3'>{error?.message || gError?.message}</p>
+    }
+    let socialError
+    if (gError) {
+        socialError = <p className='text-red-500 py-3'>{gError?.message}</p>
     }
 
 
@@ -116,8 +121,9 @@ const Register = () => {
                         </form>
                         <p className='py-3 text-center '>Already have an Account?  <Link to="/login" ><span className=' link text-primary ml-1 '> Please Login</span></Link></p>
                         <div className="divider">OR</div>
-                        <button className="btn btn-outline font-bold">Continue with google</button>
+                        <button onClick={() => signInWithGoogle()} className="btn btn-outline font-bold"> <img className='w-7 mr-2' src={image} alt="" /> Continue with google</button>
                     </div>
+                    {socialError}
                 </div>
             </div>
         </div>

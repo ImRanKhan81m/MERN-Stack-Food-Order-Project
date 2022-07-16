@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { Link, useLocation, useNavigate, } from 'react-router-dom';
 import { useForm } from "react-hook-form";
-import image from '../../../assets/image/food-7.png'
+import image from '../../../assets/icon/Google.png'
 import auth from '../../../firebase.init';
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 
 const Login = () => {
     const { register, formState: { errors }, handleSubmit } = useForm();
@@ -13,6 +13,7 @@ const Login = () => {
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
+    const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
     const location = useLocation();
     const navigate = useNavigate();
     const from = location.state?.from?.pathname || "/";
@@ -22,14 +23,21 @@ const Login = () => {
     // }, [from, navigate])
 
 
-    if(user){
+    if (user || gUser) {
         navigate(from, { replace: true })
     }
-    
+
     let signInError;
     if (error) {
         signInError = <p className='text-red-500 py-3'>Sorry! These credentials do not match our records.</p>
     }
+
+    let socialError
+    if (gError) {
+        socialError = <p className='text-red-500 py-3'>{gError?.message}</p>
+    }
+
+
     const onSubmit = data => {
         signInWithEmailAndPassword(data.email, data.password)
     }
@@ -97,7 +105,8 @@ const Login = () => {
                         </form>
                         <p className='py-3 text-center '>New Customer?  <Link to="/register" ><span className=' link text-primary ml-1'> Create New Account</span></Link></p>
                         <div className="divider">OR</div>
-                        <button className="btn btn-outline font-bold">Continue with google</button>
+                        <button onClick={() => signInWithGoogle()} className="btn btn-outline font-bold"> <img className='w-7 mr-2' src={image} alt="" /> Continue with google</button>
+                        {socialError}
                     </div>
                 </div>
             </div>

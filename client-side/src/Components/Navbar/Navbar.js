@@ -10,7 +10,6 @@ import { signOut } from 'firebase/auth';
 const Navbar = ({ setDark, dark }) => {
     const [user] = useAuthState(auth);
 
-    console.log(user);
     const logout = () => {
         signOut(auth);
       };
@@ -65,7 +64,7 @@ const Navbar = ({ setDark, dark }) => {
                     <label tabIndex="1">
                         <div class="avatar p-2">
                             <div class="w-10 rounded-full">
-                                <img src="https://placeimg.com/192/192/people" alt='Profile' />
+                                <img src={user.photoURL} alt='Profile' />
                             </div>
                         </div>
                     </label>
