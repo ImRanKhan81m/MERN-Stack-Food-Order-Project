@@ -12,6 +12,7 @@ import Popular from './Components/Popular/Popular';
 import Menu from './Components/Menu/Menu';
 import Order from './Components/Order/Order';
 import Blog from './Components/Blog/Blog';
+import Login from './pages/Authentication/Login/Login';
 
 function App() {
   const [dark, setDark] = useState(false)
@@ -29,6 +30,7 @@ function App() {
         <Route path='/order' element={<Order />}></Route>
         <Route path='/blog' element={<Blog />}></Route>
         <Route path='/contact' element={<Order />}></Route>
+        <Route path='/login' element={<Login />}></Route>
       </Routes>
       <Footer />
     </div>

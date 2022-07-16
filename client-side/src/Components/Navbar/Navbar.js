@@ -51,9 +51,9 @@ const Navbar = ({ setDark, dark }) => {
                 <Link className="navbar-logo bg-accent hover:bg-primary mr-3 indicator" to={'/'} ><FontAwesomeIcon className='icon text-secondary' icon={faCartShopping} /><span class="indicator-item badge badge-secondary text-accent">5</span></Link>
 
 
-                {/* <button className='btn btn-sm btn-success btn-outline'>Login</button> */}
+                <Link to="/login"><button className='btn btn-sm btn-success btn-outline'>Login</button></Link>
 
-                <div class="dropdown dropdown-end dropdown-items">
+                {/* <div class="dropdown dropdown-end dropdown-items">
                     <label tabIndex="1">
                         <div class="avatar p-2">
                             <div class="w-10 rounded-full">
@@ -69,7 +69,7 @@ const Navbar = ({ setDark, dark }) => {
                         <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary ' icon={faArrowRightArrowLeft} /> <span className='item'>Returns & Cancellation</span></Link></li>
                         <li><Link to='/'><FontAwesomeIcon className='icon text-secondary ' icon={faRightFromBracket} /> <span className='item'>Log Out</span></Link></li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </div>
     );
