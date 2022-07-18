@@ -20,6 +20,7 @@ function App() {
   useEffect(() => {
     AOS.init();
   }, [])
+   
   return (
     <div data-theme={dark ? "light" : "dark"}>
       <Navbar setDark={setDark} dark={dark} />
