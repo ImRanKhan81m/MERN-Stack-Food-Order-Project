@@ -14,7 +14,7 @@ const Navbar = ({ setDark, dark }) => {
         signOut(auth);
     };
 
-
+    
     return (
         <div className="sticky top-0 z-10 shadow navbar-content navbar bg-base-100 p-0">
             <div className="navbar-start">
@@ -60,7 +60,7 @@ const Navbar = ({ setDark, dark }) => {
 
                 <Link className="navbar-logo bg-accent hover:bg-primary mr-3 indicator" to={'/'} ><FontAwesomeIcon className='icon text-secondary' icon={faCartShopping} /><span className="indicator-item badge badge-secondary text-accent">5</span></Link>
 
-                {user ? <><div className="dropdown dropdown-end dropdown-items">
+                {/* {user ? <><div className="dropdown dropdown-end dropdown-items">
                     <label tabIndex="1">
                         <div className="avatar p-2">
                             <div className="w-10 rounded-full">
@@ -76,27 +76,11 @@ const Navbar = ({ setDark, dark }) => {
                         <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary ' icon={faArrowRightArrowLeft} /> <span className='item'>Returns & Cancellation</span></Link></li>
                         <li><Link onClick={logout} to='/'><FontAwesomeIcon className='icon text-secondary ' icon={faRightFromBracket} /> <span className='item'>Log Out</span></Link></li>
                     </ul>
-                </div></> : <Link to="/login"><button className='btn btn-sm btn-success btn-outline'>Login</button></Link>}
+                </div></> : <Link to="/login"><button className='btn btn-sm btn-success btn-outline'>Login</button></Link>} */}
 
-                {/* <Link to="/login"><button className='btn btn-sm btn-success btn-outline'>Login</button></Link> */}
+                <Link to="/"><button className='btn btn-sm btn-success btn-outline'>Login</button></Link>
 
-                {/* <div className="dropdown dropdown-end dropdown-items">
-                    <label tabIndex="1">
-                        <div className="avatar p-2">
-                            <div className="w-10 rounded-full">
-                                <img src="https://placeimg.com/192/192/people" alt='Profile'/>
-                            </div>
-                        </div>
-                    </label>
-                    <ul tabIndex="1" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 bg-base-100 border border-info">
-                        <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faUserAlt} /> <span className='item'>Profile</span></Link></li>
-                        <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faList} /> <span className='item'>My Orders</span></Link></li>
-                        <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary' icon={faHeart} /> <span className='item'>My Wishlist</span></Link></li>
-                        <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary ' icon={faStar} /> <span className='item'>My Reviews</span></Link></li>
-                        <li className='mb-1'><Link to='/'><FontAwesomeIcon className='icon text-secondary ' icon={faArrowRightArrowLeft} /> <span className='item'>Returns & Cancellation</span></Link></li>
-                        <li><Link to='/'><FontAwesomeIcon className='icon text-secondary ' icon={faRightFromBracket} /> <span className='item'>Log Out</span></Link></li>
-                    </ul>
-                </div> */}
+                
             </div>
         </div>
     );
