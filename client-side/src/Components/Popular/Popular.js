@@ -31,24 +31,24 @@ const Popular = () => {
                     data-aos-easing="ease-in-out" className='lg:text-4xl md:text-4xl sm:text-4xl text-3xl text-secondary my-3 text-center font-medium'>Our Special Dishes</h2>
 
             </div>
-            <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 mt-14 gap-6'>
+            <div className='grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 mt-14 gap-4'>
 
                 <div
-                    data-aos="fade-up"
-                    data-aos-offset="200"
-                    data-aos-delay="50"
-                    data-aos-duration="1200"
-                    data-aos-easing="ease-in-out"
-                    className="card  bg-neutral shadow-xl border">
+                    // data-aos="fade-up"
+                    // data-aos-offset="200"
+                    // data-aos-delay="50"
+                    // data-aos-duration="1200"
+                    // data-aos-easing="ease-in-out"
+                    className="card  bg-neutral shadow hover:shadow-xl duration-500">
                     <div className='text-end mr-4 mt-3 wishlist'>
                         <FontAwesomeIcon className='icon text-primary hover:text-secondary text-3xl' icon={faHeart} />
                     </div>
-                    <figure className="px-3 ">
+                    <figure className="">
                         <img src={food1} alt="food" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center lg:p-5 md:p-3 sm:p-3 p-3">
                         <h2 className="card-title text-warning">Delicious Food</h2>
-                        <span className='text-warning font-semibold'>
+                        <span className='text-warning font-semibold text-sm'>
                             <FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStar} /><FontAwesomeIcon className='icon text-primary' icon={faStarHalfStroke} /> (56)
                         </span>
                         <h3 className='text-warning font-medium'>$40.00 <small><s className='font-normal'>$56.00</s></small></h3>

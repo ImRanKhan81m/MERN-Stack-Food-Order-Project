@@ -43,9 +43,6 @@ const Login = () => {
     }
     return (
         <div className='mid-container lg:my-10'>
-            {/* <div className='w-full flex order-2'>
-                <img className='w-full shrink-0' src={image} alt="" />
-            </div> */}
             <div className='flex justify-center items-center'>
                 <div className="card flex-shrink-0 w-full lg:max-w-lg md:max-w-lg sm:max-w-lg max-w-sm shadow-2xl bg-base-100 ">
                     <div className="card-body border rounded-2xl ">
@@ -105,7 +102,7 @@ const Login = () => {
                         </form>
                         <p className='py-3 text-center '>New Customer?  <Link to="/register" ><span className=' link text-primary ml-1'> Create New Account</span></Link></p>
                         <div className="divider">OR</div>
-                        <button onClick={() => signInWithGoogle()} className="btn btn-outline font-bold"> <img className='w-7 mr-2' src={image} alt="" /> Continue with google</button>
+                        <button onClick={() => signInWithGoogle()} className="btn btn-outline font-bold "> <img className='w-7 mr-2' src={image} alt="" /> Continue with google</button>
                         {socialError}
                     </div>
                 </div>

@@ -22,7 +22,7 @@ function App() {
   }, [])
    
   return (
-    <div data-theme={dark ? "light" : "dark"}>
+    <div data-theme={dark ? "dark" : "light"}>
       <Navbar setDark={setDark} dark={dark} />
       <Routes>
         <Route path='/' element={<Home />}></Route>
